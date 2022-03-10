@@ -1,0 +1,467 @@
+
+<html>
+  <head lang="en">
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta name="Keywords" content="HTTP/2, HTTP/2.0, H2, Akamai, Cloud Computing, CDN, Mobile Experience, Content Delivery, Application Acceleration, Application Performance Management">
+      <title>HTTP/2: the Future of the Internet | Akamai</title>
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+  
+      .img-wrap {
+          position:  relative;
+      }
+      .img-interior{
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+      }
+    
+    .row {
+        overflow: hidden;
+    }
+  
+    .frame-container {
+      width:100%;
+        max-width: 100%;
+        float: left;
+        box-sizing: border-box;
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+  
+    .frame-container img {
+        float: left;
+        max-width: 5%;
+        height: auto;
+    }
+
+    </style>
+    <script>
+        function imageLoadTime() {
+                var lapsed = navSupport ? window.performance.now() : Date.now() - pageStart;
+          document.getElementById("imgTiming").innerHTML = ((lapsed) / 1000).toFixed(2)
+        }
+          var pageStart = Date.now();
+      var navSupport = !(!('performance' in window) || !('timing' in window.performance) || !('navigation' in window.performance));
+      </script>
+  </head>
+  <body>
+  <div class="frame-container">
+    <div>Load time: <span id="imgTiming">0</span>s</div>
+      <div class="img-wrap">
+          <div class="img-interior">
+            <div class="row">
+                <img onload='imageLoadTime()' src='/images/slice_01.png'/>
+                <img onload='imageLoadTime()' src='/images/slice_02.png'/>
+                <img onload='imageLoadTime()' src='/images/slice_03.png'/>
+                <img onload='imageLoadTime()' src='/images/slice_04.png'/>
+                <img onload='imageLoadTime()' src='/images/slice_05.png'/>
+                <img onload='imageLoadTime()' src='/images/slice_06.png'/>
+                <img onload='imageLoadTime()' src='/images/slice_07.png'/>
+                <img onload='imageLoadTime()' src='/images/slice_08.png'/>
+                <img onload='imageLoadTime()' src='/images/slice_09.png'/>
+                <img onload='imageLoadTime()' src='/images/slice_10.png'/>
+                <img onload='imageLoadTime()' src='/images/slice_11.png'/>
+                <img onload='imageLoadTime()' src='/images/slice_12.png'/>
+                <img onload='imageLoadTime()' src='/images/slice_13.png'/>
+                <img onload='imageLoadTime()' src='/images/slice_14.png'/>
+                <img onload='imageLoadTime()' src='/images/slice_15.png'/>
+                <img onload='imageLoadTime()' src='/images/slice_16.png'/>
+                <img onload='imageLoadTime()' src='/images/slice_17.png'/>
+                <img onload='imageLoadTime()' src='/images/slice_18.png'/>
+                <img onload='imageLoadTime()' src='/images/slice_19.png'/>
+            </div>
+            <div class="row">
+              <img onload='imageLoadTime()' src='/images/slice_20.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_21.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_22.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_23.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_24.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_25.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_26.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_27.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_28.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_29.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_30.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_31.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_32.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_33.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_34.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_35.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_36.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_37.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_38.png'/>
+            </div>
+            <div class="row">
+              <img onload='imageLoadTime()' src='/images/slice_39.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_40.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_41.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_42.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_43.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_44.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_45.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_46.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_47.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_48.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_49.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_50.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_51.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_52.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_53.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_54.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_55.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_56.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_57.png'/>
+            </div>
+            <div class="row">
+              <img onload='imageLoadTime()' src='/images/slice_58.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_59.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_60.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_61.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_62.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_63.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_64.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_65.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_66.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_67.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_68.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_69.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_70.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_71.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_72.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_73.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_74.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_75.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_76.png'/>
+            </div>
+            <div class="row">
+              <img onload='imageLoadTime()' src='/images/slice_77.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_78.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_79.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_80.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_81.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_82.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_83.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_84.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_85.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_86.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_87.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_88.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_89.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_90.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_91.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_92.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_93.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_94.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_95.png'/> 
+            </div>
+            <div class="row">
+              <img onload='imageLoadTime()' src='/images/slice_96.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_97.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_98.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_99.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_100.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_101.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_102.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_103.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_104.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_105.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_106.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_107.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_108.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_109.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_110.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_111.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_112.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_113.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_114.png'/>
+            </div>
+            <div class="row">
+              <img onload='imageLoadTime()' src='/images/slice_115.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_116.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_117.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_118.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_119.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_120.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_121.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_122.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_123.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_124.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_125.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_126.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_127.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_128.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_129.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_130.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_131.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_132.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_133.png'/>
+            </div>
+            <div class="row">
+              <img onload='imageLoadTime()' src='/images/slice_134.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_135.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_136.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_137.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_138.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_139.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_140.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_141.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_142.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_143.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_144.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_145.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_146.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_147.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_148.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_149.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_150.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_151.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_152.png'/>
+            </div>
+            <div class="row">
+              <img onload='imageLoadTime()' src='/images/slice_153.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_154.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_155.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_156.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_157.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_158.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_159.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_160.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_161.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_162.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_163.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_164.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_165.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_166.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_167.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_168.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_169.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_170.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_171.png'/>
+            </div>
+            <div class="row">
+              <img onload='imageLoadTime()' src='/images/slice_172.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_173.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_174.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_175.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_176.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_177.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_178.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_179.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_180.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_181.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_182.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_183.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_184.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_185.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_186.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_187.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_188.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_189.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_190.png'/>
+            </div>
+            <div class="row">
+              <img onload='imageLoadTime()' src='/images/slice_191.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_192.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_193.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_194.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_195.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_196.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_197.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_198.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_199.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_200.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_201.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_202.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_203.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_204.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_205.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_206.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_207.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_208.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_209.png'/>
+            </div>
+            <div class="row">
+              <img onload='imageLoadTime()' src='/images/slice_210.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_211.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_212.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_213.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_214.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_215.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_216.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_217.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_218.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_219.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_220.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_221.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_222.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_223.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_224.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_225.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_226.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_227.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_228.png'/>
+            </div>
+            <div class="row">
+              <img onload='imageLoadTime()' src='/images/slice_229.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_230.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_231.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_232.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_233.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_234.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_235.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_236.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_237.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_238.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_239.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_240.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_241.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_242.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_243.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_244.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_245.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_246.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_247.png'/>
+            </div>
+            <div class="row">
+              <img onload='imageLoadTime()' src='/images/slice_248.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_249.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_250.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_251.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_252.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_253.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_254.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_255.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_256.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_257.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_258.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_259.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_260.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_261.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_262.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_263.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_264.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_265.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_266.png'/>
+            </div>
+            <div class="row">
+              <img onload='imageLoadTime()' src='/images/slice_267.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_268.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_269.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_270.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_271.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_272.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_273.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_274.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_275.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_276.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_277.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_278.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_279.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_280.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_281.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_282.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_283.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_284.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_285.png'/>
+            </div>
+            <div class="row">
+              <img onload='imageLoadTime()' src='/images/slice_286.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_287.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_288.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_289.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_290.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_291.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_292.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_293.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_294.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_295.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_296.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_297.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_298.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_299.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_300.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_301.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_302.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_303.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_304.png'/>
+            </div>
+            <div class="row">
+              <img onload='imageLoadTime()' src='/images/slice_305.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_306.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_307.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_308.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_309.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_310.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_311.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_312.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_313.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_314.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_315.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_316.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_317.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_318.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_319.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_320.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_321.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_322.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_323.png'/>
+            </div>
+            <div class="row">
+              <img onload='imageLoadTime()' src='/images/slice_324.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_325.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_326.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_327.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_328.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_329.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_330.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_331.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_332.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_333.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_334.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_335.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_336.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_337.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_338.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_339.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_340.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_341.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_342.png'/>
+            </div>
+            <div class="row">
+              <img onload='imageLoadTime()' src='/images/slice_343.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_344.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_345.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_346.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_347.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_348.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_349.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_350.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_351.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_352.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_353.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_354.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_355.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_356.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_357.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_358.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_359.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_360.png'/>
+              <img onload='imageLoadTime()' src='/images/slice_361.png'/>
+            </div>         
+      </div>
+      </div>
+            <div id="PageLoadMetrics">
+          
+      
+         
+             <div style="float: left"><small>Demo concept inspired by <a target="_parent" href="http://http2.golang.org/gophertiles">Golang's Gophertiles</a></small></div>
+         
+      </div>
+  </div>
+  </body>
+  </html>
+  
