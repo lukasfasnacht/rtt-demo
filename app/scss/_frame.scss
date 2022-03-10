@@ -1,0 +1,39 @@
+.frame {
+  margin: auto;
+  max-width: 1000px;
+
+  &__container{
+    img {
+      float: left;
+      max-width: 5%;
+      height: auto;
+    }
+
+  }
+
+  &__result{
+    margin-bottom: 0.625rem;
+    font-size: $font-m;
+    font-weight: 300;
+  }
+
+  &__bold{
+    font-weight: 800;
+    color: $orchid;
+  }
+
+  &__wrap{
+    position: relative;
+  }
+
+  &__row{
+    overflow: hidden;
+
+    div{
+      width: 50%;
+      float: right;
+      display: block;
+    }
+  }
+
+}

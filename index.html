@@ -1,23 +1,36 @@
 
 <html>
 <head lang="en">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>RTT Test</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/app/scss/style.css">
+    
+    <title>RTT-Demo</title>
 </head>
 <body>
-<div class="container">
-    <div id="main-container">
-        <a href="http://www.akamai.com/"><img height="40" src="/resources/akamai-logo.png" width="99"></a><img height="1" src="https://http1.akamai.com/resources/1pixel.png" width="1">
-        <div align="center">
-            <h1>HTTP/2 is the future of the Web, and it is here!</h1>
-        </div>> 
-        <div align="center"><h2 class="highlight">Your browser supports HTTP/2!</h2>This is a demo of HTTP/2’s impact on your download of many small tiles making up the <a href="http://wwwnui.akamai.com/gnet/globe/index.html">Akamai&nbsp;Spinning&nbsp;Globe</a>.</div>
-    </div>
-    <div>
+    <section class="hero">
+        <div class="hero__text container">
+          <img src="/images/logo-simple-bw.svg" alt="">
+          <h1>
+            Setting the Scene | RTT-Demo
+          </h1>
+          <p>
+            Dies ist eine Website der Grundversorgungsabteilung der Swisscom. Sie dient als Demo der RTT von verschiendenen Satelliten Technologien. BLABLABLA. Hier könnte Ihre Werbung stehen. Kevin mach mal öppis.
+          </p>
+        </div>
+    
+      </section>
+    
+    <section class="frame">
+      <div class="frame__image">
         <iframe src="/image.html" marginheight="0" frameborder="0" scrolling="no" width="100%" height="100%" onload="loadDeferredIframe();"></iframe>
-    </div>
+      </div>
+    </section>
 </div>
 </body>
 </html>
