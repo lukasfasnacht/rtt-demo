@@ -7,4 +7,25 @@
     text-align: center;
   }
 
+  &__subtitle{
+
+    p{
+    font-weight: 400;
+    font-size: 1rem;
+    color: $black;
+    margin-bottom: 1.875rem;
+    }
+
+  }
+
+  &__description{
+    text-align: center;
+    display: inline-block;
+    color: $darkgrey;
+  }
+
+  &__bold{
+    font-weight: 800;
+  }
+
 }

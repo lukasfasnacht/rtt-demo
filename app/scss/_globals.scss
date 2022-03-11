@@ -13,11 +13,11 @@ body {
 }
 
 h1 {
-  font-weight: 300;
+  font-weight: 600;
   font-size: $font-xl;
   color: $navy;
   line-height: 1;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.875rem;
 }
 
 h2 {
@@ -37,7 +37,6 @@ h3 {
 
 p {
   line-height: 1.5;
-  margin-bottom: 2.25rem;
   font-size: $font-s;
   font-weight: 100;
   color: $darkgrey;

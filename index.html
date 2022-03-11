@@ -14,18 +14,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/app/scss/style.css">
     
-    <title>RTT-Demo</title>
+    <title>Load Time Test</title>
 </head>
 <body>
     <section class="hero">
         <div class="hero__text container">
-          <img src="/images/logo-simple-bw.svg" alt="">
+          <img src="/images/B-W SC Lifeform.svg" alt="">
           <h1>
             Setting the Scene | RTT-Demo
           </h1>
-          <p>
-            Dies ist eine Website der Grundversorgungsabteilung der Swisscom. Sie dient als Demo der RTT von verschiendenen Satelliten Technologien. BLABLABLA. Hier könnte Ihre Werbung stehen.
-          </p>
+          <div class="hero__subtitle">
+            <p>
+              Diese Demo-Webseite zeigt die komplette Ladezeit (Page Load Time) einer Webseite mit grafischem Inhalt. Die gemessene Zeit wird benötigt, bis alle Inhalte dieser Seite komplett geladen wurden.
+            </p>
+          </div>
+
+          <div class="hero__description">
+            <p>
+              <span class="hero__bold">How it Works:</span><br> Das angezeigte Bild besteht in Wirklichkeit aus <span class="hero__bold">361</span> einzel zusammengefassten Bildern (49 x 27 px). Für jedes Bild wird eine einzelne TCP Session aufgebaut (Request-Antwort). Standardmässig kann ein Browser 6 TCP-Sessions parallel verarbeiten. Der Browser misst die Zeit, welche benötigt wird um jedes einzelne Bild darzustellen. Die Zeiten werden addiert und daraus resultiert die <span class="hero__bold">Load-Time</span>
+            </p>
+          </div>
         </div>
     
       </section>
